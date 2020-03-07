@@ -6,7 +6,7 @@ Stepper motor driver in C for Raspberry Pi.
 2. Make sure you connect stepper motor to Raspberry Pi with the right pin.
 ### GPIO Map
 PS : Using Physical Pin number : IN1=11, IN2=12, IN3=13, IN4=15
-![GPIO Mapping]()
+![GPIO Mapping](./1583592655952.jpg)
 ### Compile it with make command.
 ```bash
 git clone https://github.com/piday4fun/steppermotor.git
@@ -22,4 +22,4 @@ make
 ```bash
 ./stepper 3 2 1 0
 ```
-###Have fun!
+### Have fun!
