@@ -16,10 +16,10 @@ make
 ### Run it in command line.
 #### Clockwise 
 ```bash
-./stepper 0 1 2 3 
+./stepper 0 
 ```
 #### Counter-Clockwise
 ```bash
-./stepper 3 2 1 0
+./stepper 1
 ```
 ### Have fun!
