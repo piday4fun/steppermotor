@@ -18,7 +18,7 @@ void rotate(int* pins, int reverse) {
 			digitalWrite(pins[k], (j == i) ? 1 : 0); 
 		}
 
-		delayMS(2);
+		delayMS(5);
 	}
 }
 
@@ -30,7 +30,7 @@ int init_port() {
 			pinMode(p, OUTPUT);
 		}
 	
-		delayMS(50);
+		delayMS(100);
 	}
 
 	return ret;
