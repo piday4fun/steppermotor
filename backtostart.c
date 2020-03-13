@@ -32,7 +32,7 @@ int main(int argc,char* argv[]){
 	pinMode(IN4, OUTPUT);
 
 	delayMS(50);
-	for(int i=0; i<15; i++){
+	for(int i=0; i<1450; i++){
 		rotate(pins, CLOCKWISE);
 		}
 	return 0;

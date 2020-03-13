@@ -16,10 +16,15 @@ make
 ### Run it in command line.
 #### Clockwise 
 ```bash
-./stepper 0 
+./stepper 0 1 2 3
 ```
 #### Counter-Clockwise
 ```bash
-./stepper 1
+./stepper 3 2 1 0 
+```
+### Back to start position
+```bash
+gcc -o backtostart -lwiringPi backtostart.c
+./backtostart 3 2 1 0
 ```
 ### Have fun!
